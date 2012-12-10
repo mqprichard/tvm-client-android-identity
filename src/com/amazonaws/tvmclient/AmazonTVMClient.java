@@ -74,7 +74,7 @@ public class AmazonTVMClient {
     }
 
     /**
-     * Using the given username and password, securily communictes the Key for the user's account.
+     * Using the given username and password, securely communicates the Key for the user's account.
      */
     public Response login( String username, String password ) {
         Response response = Response.SUCCESSFUL;
